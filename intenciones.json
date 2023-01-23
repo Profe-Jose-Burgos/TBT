@@ -1,0 +1,15 @@
+{
+    "intents": [
+        {
+            "tag": "Saludo",
+            "preg": [
+                "Hola",
+                "Holaa",
+                "Holaaa"
+            ],
+            "resp": [
+                "Hola soy Shamaris"
+            ]
+        }
+    ]
+}
