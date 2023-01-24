@@ -34,7 +34,7 @@
                 "*Agendar Cita*",
                 "Le gustaria que si cita fuese",
                 "*1.* Virtual",
-                "*2.* Prescencial"
+                "*2.* Presencial"
             ]
         },
         {
@@ -46,26 +46,27 @@
             ],
             "resp": [
                 "*Cita virtual*",
-                "Para este mes tenemos disponibilidad los dias",
+                "Para este mes tenemos disponibilidad los d\u00edas",
                 "26/07/2023, 27/07/2023, 31/07/2023",
                 "",
                 "_Todas nuestras citas son a las 3 p.m. por zoom_.",
-                "Se le hara llegar el link 10 minutos antes el dia de la reunion",
+                "Se le har\u00e1 llegar el link 10 minutos antes el d\u00eda de la reuni\u00f3n",
                 "",
                 "*Porfavor seleccione una fecha en formato dd/mm/yyyy*"
             ]
         },
         {
-            "tag": "Cita_prescencial",
+            "tag": "Cita_presencial",
             "preg": [
                 "cita prescencial",
                 "cita presencial",
                 "presencial",
-                "prescencial"
+                "prescencial",
+                "reservar cita presencial"
             ],
             "resp": [
-                "*Cita Prescencial*",
-                "Para este mes tenemos disponibilidad los siguientes dias",
+                "*Cita Presencial*",
+                "Para este mes tenemos disponibilidad los siguientes d\u00edas",
                 "28/07/2023, 30/07/2023",
                 "",
                 "Porfavor seleccione una fecha en formato dd/mm/yyyy",
@@ -81,10 +82,13 @@
                 "como puedo realizar un envio",
                 "solicitud de envios",
                 "enviar paquetes",
-                "como envio un paquete"
+                "como envio un paquete",
+                "envio"
             ],
             "resp": [
-                "*Servicio de Envio**1.* Nacional (Panama)*2.* Internacional (America)",
+                "*Servicio de Envio*",
+                "*1.* Nacional (Panama)",
+                "*2.* Internacional (America)",
                 "*3.* Internacional (Europa, Asia, Oceania)",
                 "",
                 "Seleccione el destino del paquete"
@@ -96,19 +100,20 @@
                 "nacional"
             ],
             "resp": [
-                "*Nacional (Panama)**1.* Bocas del Toro",
-                "*2.* Cocle",
-                "*3.* Colon",
-                "*4.* Chiriqui",
-                "*5.* Darien",
+                "*Nacional (Panama)*",
+                "*1.* Bocas del Toro",
+                "*2.* Cocl\u00e9",
+                "*3.* Col\u00f3n",
+                "*4.* Chiriqu\u00ed",
+                "*5.* Dari\u00e9n",
                 "*6.* Herrera",
                 "*7.* Los Santos",
-                "*8.* Panama (Capital)",
+                "*8.* Panam\u00e1 (Capital)",
                 "*9.* Veraguas",
-                "*10.* Panama Oeste",
+                "*10.* Panam\u00e1 Oeste",
                 "*11.* Comarcas",
                 "",
-                "Seleccione el destino del paquete"
+                "Seleccione el destino del paquete."
             ]
         },
         {
@@ -120,7 +125,7 @@
                 "*Bocas del Toro*",
                 "Brinde la siguiente informacion del envio en el orden solicitado",
                 "Nombre del destinatario",
-                "Cedula del destinatario",
+                "C\u00e9dula del destinatario",
                 "Cantidad de paquetes con su peso",
                 "*EJEMPLO*",
                 "*1. 20kg*",
@@ -128,15 +133,186 @@
             ]
         },
         {
-            "tag": "Infor_recibida",
+            "tag": "Cocle_provincia",
             "preg": [
-                "ameth Cebrian",
-                "8-987-2235",
-                "1. 15kg"
+                "Cocle",
+                "Cocl\u00e9"
             ],
             "resp": [
-                "Informacion recibida",
-                "Gracias por elegir a SIC-Panama"
+                "*Cocl\u00e9*",
+                "Brinde la siguiente informaci\u00f3n del envio en el orden solicitado",
+                "Nombre del destinatario",
+                "C\u00e9dula del destinatario",
+                "Cantidad de paquetes con su peso",
+                "*EJEMPLO*",
+                "*1. 20kg*",
+                "*2. 10kg*"
+            ]
+        },
+        {
+            "tag": "Colon_provincia",
+            "preg": [
+                "Colon",
+                "Col\u00f3n"
+            ],
+            "resp": [
+                "*Col\u00f3n*",
+                "Brinde la siguiente informaci\u00f3n del envio en el orden solicitado",
+                "Nombre del destinatario",
+                "C\u00e9dula del destinatario",
+                "Cantidad de paquetes con su peso",
+                "*EJEMPLO*",
+                "*1. 20kg*",
+                "*2. 10kg*"
+            ]
+        },
+        {
+            "tag": "Chiriqui_provincia",
+            "preg": [
+                "Chiriqui",
+                "Chiriqu\u00ed"
+            ],
+            "resp": [
+                "*Chiriqu\u00ed*",
+                "Brinde la siguiente informaci\u00f3n del envio en el orden solicitado",
+                "Nombre del destinatario",
+                "C\u00e9dula del destinatario",
+                "Cantidad de paquetes con su peso",
+                "*EJEMPLO*",
+                "*1. 20kg*",
+                "*2. 10kg*"
+            ]
+        },
+        {
+            "tag": "Darien_provincia",
+            "preg": [
+                "Darien",
+                "Dari\u00e9n"
+            ],
+            "resp": [
+                "*Dari\u00e9n*",
+                "Brinde la siguiente informaci\u00f3n del envio en el orden solicitado",
+                "Nombre del destinatario",
+                "C\u00e9dula del destinatario",
+                "Cantidad de paquetes con su peso",
+                "*EJEMPLO*",
+                "*1. 20kg*",
+                "*2. 10kg*"
+            ]
+        },
+        {
+            "tag": "Herrera_provincia",
+            "preg": [
+                "Herrera"
+            ],
+            "resp": [
+                "*Herrera*",
+                "Brinde la siguiente informaci\u00f3n del envio en el orden solicitado",
+                "Nombre del destinatario",
+                "C\u00e9dula del destinatario",
+                "Cantidad de paquetes con su peso",
+                "*EJEMPLO*",
+                "*1. 20kg*",
+                "*2. 10kg*"
+            ]
+        },
+        {
+            "tag": "Los_Santos_provincia",
+            "preg": [
+                "Los Santos"
+            ],
+            "resp": [
+                "*Los Santos*",
+                "Brinde la siguiente informaci\u00f3n del envio en el orden solicitado",
+                "Nombre del destinatario",
+                "C\u00e9dula del destinatario",
+                "Cantidad de paquetes con su peso",
+                "*EJEMPLO*",
+                "*1. 20kg*",
+                "*2. 10kg*"
+            ]
+        },
+        {
+            "tag": "Panama_provincia",
+            "preg": [
+                "Panama",
+                "Panam\u00e1"
+            ],
+            "resp": [
+                "*Panam\u00e1 (capital)*",
+                "Brinde la siguiente informaci\u00f3n del envio en el orden solicitado",
+                "Nombre del destinatario",
+                "C\u00e9dula del destinatario",
+                "Cantidad de paquetes con su peso",
+                "*EJEMPLO*",
+                "*1. 20kg*",
+                "*2. 10kg*"
+            ]
+        },
+        {
+            "tag": "Veraguas_provincia",
+            "preg": [
+                "Veraguas"
+            ],
+            "resp": [
+                "*Veraguas*",
+                "Brinde la siguiente informaci\u00f3n del envio en el orden solicitado",
+                "Nombre del destinatario",
+                "C\u00e9dula del destinatario",
+                "Cantidad de paquetes con su peso",
+                "*EJEMPLO*",
+                "*1. 20kg*",
+                "*2. 10kg*"
+            ]
+        },
+        {
+            "tag": "Panama_Oeste_provincia",
+            "preg": [
+                "Panam\u00e1 Oeste",
+                "Panama Oeste"
+            ],
+            "resp": [
+                "*Panam\u00e1 Oeste*",
+                "Brinde la siguiente informaci\u00f3n del envio en el orden solicitado",
+                "Nombre del destinatario",
+                "C\u00e9dula del destinatario",
+                "Cantidad de paquetes con su peso",
+                "*EJEMPLO*",
+                "*1. 20kg*",
+                "*2. 10kg*"
+            ]
+        },
+        {
+            "tag": "Comarcas_provincia",
+            "preg": [
+                "Comarca",
+                "Comarcas"
+            ],
+            "resp": [
+                "*Comarcas*",
+                "Brinde la siguiente informaci\u00f3n del envio en el orden solicitado",
+                "Nombre del destinatario",
+                "C\u00e9dula del destinatario",
+                "Cantidad de paquetes con su peso",
+                "*EJEMPLO*",
+                "*1. 5 paquete, 20kg*",
+                "*2. 1 paquete, 10kg*"
+            ]
+        },
+        {
+            "tag": "Infor_recibida",
+            "preg": [
+                "Juan Vela",
+                "1-234-5678",
+                "1 paquete, 5kg"
+            ],
+            "resp": [
+                "*Informaci\u00f3n recibida*",
+                "Tus datos son:",
+                "Nombre del destinatario: Juan Vela",
+                "C\u00e9dula del destinatario: 1-234-5678",
+                "Cantidad y peso del paquete: 1 paquete, 5kg",
+                "Gracias por elegir a SIC-Panam\u00e1"
             ]
         },
         {
@@ -147,18 +323,57 @@
                 "cotizar"
             ],
             "resp": [
-                "Hasta la procsima bebi"
+                "*Cotizaci\u00f3n de presupuesto*",
+                "Puede proporcionarme los detalles del env\u00edo en el orden solicitado:",
+                "Origen del env\u00edo",
+                "Destino del env\u00edo",
+                "Peso del paquete",
+                "Dimensiones en mts (largo, alto, ancho)"
+            ]
+        },
+        {
+            "tag": "Cotizacion_recibida",
+            "preg": [
+                "Capital",
+                "Bocas",
+                "10kg",
+                "0.5, 0.5, 0.2"
+            ],
+            "resp": [
+                "*Cotizacion recibida*",
+                "Costo neto de env\u00edo de Panam\u00e1(Capital) a Bocas del Toro: $7",
+                "+ peso de 10kg: $17",
+                "+ costos adicionales: $3",
+                "*TOTAL:* $20.00"
+            ]
+        },
+        {
+            "tag": "contacto",
+            "preg": [
+                "Contacto",
+                "Ubicaci\u00f3n",
+                "Contactos"
+            ],
+            "resp": [
+                "*Contactos*",
+                "",
+                "Ubicaci\u00f3n: Parque Natural Metropolitano, STEAM House, Rep. de Panam\u00e1, Av. Juan Pablo II 7, Panama City",
+                "Google maps: https://goo.gl/maps/rX1cvabSMZhjmPvM9",
+                "Horario: Lunes a S\u00e1bado 8:00 a.m - 5:00 p.m",
+                "Tel\u00e9fono: +507 300-0000"
             ]
         },
         {
             "tag": "Despedida",
             "preg": [
-                "Chao",
-                "Adios",
-                "Hasta luego"
+                "chao",
+                "adios",
+                "hasta luego",
+                "gracias",
+                "muchas gracias"
             ],
             "resp": [
-                "Hasta la procsima bebi"
+                "\u00a1Hasta luego!, espero poder estar en contacto denuevo contigo."
             ]
         },
         {
