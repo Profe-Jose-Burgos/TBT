@@ -3,12 +3,182 @@
         {
             "tag": "Saludo",
             "preg": [
-                "Hola",
-                "Holaa",
-                "Holaaa"
+                "hola",
+                "holaa",
+                "holaaa",
+                "buenos dias",
+                "buenas tardes",
+                "buenas noches",
+                "buenas"
             ],
             "resp": [
-                "Hola soy Shamaris"
+                "Hola!, soy NabiBot y estoy aqui para ayudarte",
+                "Selecciona una opcion escribiendo una de las palabras que aparece a continuacion",
+                "",
+                "*Menu*",
+                "*1.* Agendar cita",
+                "*2.* Servicio de envio",
+                "*3.* Cotizacion de presupuesto"
+            ]
+        },
+        {
+            "tag": "Agendar_cita",
+            "preg": [
+                "agendar cita",
+                "programar cita",
+                "programar una cita",
+                "reservar una reunion",
+                "acordar una reunion"
+            ],
+            "resp": [
+                "*Agendar Cita*",
+                "Le gustaria que si cita fuese",
+                "*1.* Virtual",
+                "*2.* Prescencial"
+            ]
+        },
+        {
+            "tag": "Cita_virtual",
+            "preg": [
+                "cita virtual",
+                "virtual",
+                "reservar cita virtual"
+            ],
+            "resp": [
+                "*Cita virtual*",
+                "Para este mes tenemos disponibilidad los dias",
+                "26/07/2023, 27/07/2023, 31/07/2023",
+                "",
+                "_Todas nuestras citas son a las 3 p.m. por zoom_.",
+                "Se le hara llegar el link 10 minutos antes el dia de la reunion",
+                "",
+                "*Porfavor seleccione una fecha en formato dd/mm/yyyy*"
+            ]
+        },
+        {
+            "tag": "Cita_prescencial",
+            "preg": [
+                "cita prescencial",
+                "cita presencial",
+                "presencial",
+                "prescencial"
+            ],
+            "resp": [
+                "*Cita Prescencial*",
+                "Para este mes tenemos disponibilidad los siguientes dias",
+                "28/07/2023, 30/07/2023",
+                "",
+                "Porfavor seleccione una fecha en formato dd/mm/yyyy",
+                "",
+                "Todas nuestras reuniones presenciales son a las 3 p.m. en nuestras oficinas principales",
+                "Google Maps: https://goo.gl/maps/rX1cvabSMZhjmPvM9"
+            ]
+        },
+        {
+            "tag": "Servicio_envio",
+            "preg": [
+                "servicio de envio",
+                "como puedo realizar un envio",
+                "solicitud de envios",
+                "enviar paquetes",
+                "como envio un paquete"
+            ],
+            "resp": [
+                "*Servicio de Envio**1.* Nacional (Panama)*2.* Internacional (America)",
+                "*3.* Internacional (Europa, Asia, Oceania)",
+                "",
+                "Seleccione el destino del paquete"
+            ]
+        },
+        {
+            "tag": "Nacional_panama",
+            "preg": [
+                "nacional"
+            ],
+            "resp": [
+                "*Nacional (Panama)**1.* Bocas del Toro",
+                "*2.* Cocle",
+                "*3.* Colon",
+                "*4.* Chiriqui",
+                "*5.* Darien",
+                "*6.* Herrera",
+                "*7.* Los Santos",
+                "*8.* Panama (Capital)",
+                "*9.* Veraguas",
+                "*10.* Panama Oeste",
+                "*11.* Comarcas",
+                "",
+                "Seleccione el destino del paquete"
+            ]
+        },
+        {
+            "tag": "Bocas_provincia",
+            "preg": [
+                "bocas del toro"
+            ],
+            "resp": [
+                "*Bocas del Toro*",
+                "Brinde la siguiente informacion del envio en el orden solicitado",
+                "Nombre del destinatario",
+                "Cedula del destinatario",
+                "Cantidad de paquetes con su peso",
+                "*EJEMPLO*",
+                "*1. 20kg*",
+                "*2. 10kg*"
+            ]
+        },
+        {
+            "tag": "Infor_recibida",
+            "preg": [
+                "ameth Cebrian",
+                "8-987-2235",
+                "1. 15kg"
+            ],
+            "resp": [
+                "Informacion recibida",
+                "Gracias por elegir a SIC-Panama"
+            ]
+        },
+        {
+            "tag": "Cotizacion_presupuesto",
+            "preg": [
+                "cotizacion ",
+                "cotizacion del presupuesto",
+                "cotizar"
+            ],
+            "resp": [
+                "Hasta la procsima bebi"
+            ]
+        },
+        {
+            "tag": "Despedida",
+            "preg": [
+                "Chao",
+                "Adios",
+                "Hasta luego"
+            ],
+            "resp": [
+                "Hasta la procsima bebi"
+            ]
+        },
+        {
+            "tag": "Salida",
+            "preg": [
+                "exit"
+            ],
+            "resp": [
+                "sali con exit-o"
+            ]
+        },
+        {
+            "tag": "No_resp",
+            "preg": [
+                ""
+            ],
+            "resp": [
+                "No he logrado entender lo que me escribiste",
+                "",
+                "Porfavor revisa lo que has escrito e intenta hacerme la consulta nuevamente"
             ]
         }
     ]
